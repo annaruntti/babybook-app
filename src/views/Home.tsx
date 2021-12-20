@@ -1,6 +1,10 @@
+import FormPartOne from "../components/FormPartOne";
+
 export const Home = () => (
-  <main>
-    <h2>Welcome to the homepage!</h2>
-    <p>You can do this, I believe in you.</p>
-  </main>
+  <div>
+    <h1 className="text-3xl font-bold text-center mb-4">
+      Täytä tiedot ja kokoa vauvasi tarina!
+    </h1>
+    <FormPartOne />
+  </div>
 );

@@ -8,12 +8,10 @@ import { Home } from "./views/Home";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header mb-4">
         <Tabs />
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <h1 className="text-3xl font-bold">
-          Täytä tiedot ja kokoa vauvasi tarina!
-        </h1>
+
         {/* <a
           className="App-link"
           href="https://reactjs.org"
@@ -23,9 +21,11 @@ function App() {
           Learn React
         </a> */}
       </header>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <main className="p-6">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </main>
     </div>
   );
 }
