@@ -1,3 +1,5 @@
+import React from "react";
+
 type Tab = {
   id: string;
   name: string;
@@ -10,7 +12,21 @@ type TabProps = {
 };
 
 export const TabButton = ({ tab: { name, isActive } }: TabProps) => (
-  <button aria-label={name} onClick={() => isActive} onChange={() => null}>
-    {name}
-  </button>
+  <div className="p-2">
+    <div>
+      <button
+        className={`rounded-full bg-orange-400 shadow-md ${
+          isActive ? "tabBtnActive" : "tabBtn"
+        }`}
+        aria-label={name}
+        onClick={() => isActive}
+        onChange={() => null}
+      >
+        +
+      </button>
+    </div>
+    <div>
+      <span>{name}</span>
+    </div>
+  </div>
 );

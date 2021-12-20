@@ -21,6 +21,16 @@ label {
   font-size: 16px;
 }
 
+.tabBtn {
+  height: 42px;
+  width: 42px;
+}
+
+.tabBtnActive {
+  height: 60px;
+  width: 60px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
