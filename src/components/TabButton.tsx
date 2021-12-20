@@ -6,6 +6,7 @@ type Tab = {
 
 type TabProps = {
   tab: Tab;
+  handleTabActive: (id: string) => void;
 };
 
 export const TabButton = ({ tab: { name, isActive } }: TabProps) => (
