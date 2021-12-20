@@ -10,7 +10,11 @@ function FormPartOne() {
       <div>
         <textarea className="w-full" name="firstdays" id="firstdays" />
       </div>
-      <button type="submit" aria-label="Tallenna ja jatka">
+      <button
+        className="rounded-md bg-violet-700 text-white p-2 w-full shadow-md"
+        type="submit"
+        aria-label="Tallenna ja jatka"
+      >
         Tallenna ja jatka
       </button>
     </form>
