@@ -7,7 +7,7 @@ import { Home } from "./views/Home";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-yellow-100">
       <header className="App-header mb-4">
         <Tabs />
         {/* <img src={logo} className="App-logo" alt="logo" /> */}

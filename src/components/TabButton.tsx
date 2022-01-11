@@ -13,7 +13,7 @@ type TabProps = {
 
 export const TabButton = ({ tab: { name, isActive } }: TabProps) => (
   <div className="p-2">
-    <div>
+    <div className="items-center">
       <button
         className={`rounded-full bg-orange-400 shadow-md ${
           isActive ? "tabBtnActive" : "tabBtn"
