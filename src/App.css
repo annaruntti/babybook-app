@@ -7,7 +7,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #4a4a4a;
-  background-color: #fde0a1;
+  background-color: #fff9aa;
 }
 
 .tabs {
@@ -30,7 +30,7 @@
   left: 0;
   right: 0;
   height: 100%;
-  background: #fde0a1;
+  background: #fff9aa;
 }
 .box:after {
   -webkit-mask: radial-gradient(100% 80% at top, white 79.5%, transparent 80%)
@@ -59,6 +59,11 @@
   background: transparent;
   border-bottom: 1px solid;
   margin-bottom: 1rem;
+}
+
+.text-input {
+  background-color: transparent;
+  border-bottom: 1px solid;
 }
 
 header {

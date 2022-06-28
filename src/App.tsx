@@ -3,7 +3,9 @@ import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 
 import { Tabs } from "./components/Tabs";
-import { Home } from "./views/Home";
+import { Information } from "./views/Information";
+import { Growth } from "./views/Growth";
+import { Story } from "./views/Story";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       </header>
       <main className="p-6">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Information />} />
+          <Route path="/kehitys" element={<Growth />} />
+          <Route path="/lapsen-tarina" element={<Story />} />
         </Routes>
       </main>
     </div>

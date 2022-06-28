@@ -1,5 +1,3 @@
-import React from "react";
-
 function FormPartOne() {
   return (
     <form id="FormPartOne" onSubmit={() => null}>
