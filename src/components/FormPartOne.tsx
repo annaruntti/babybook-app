@@ -7,10 +7,16 @@ function FormPartOne() {
         Maija syntyi 1.5.2021. Ensimmäiset päivämme alkoivat näin:
       </p>
       <div>
-        <label htmlFor="firstday">Ensimmäisten päivien tapahtumia</label>
+        <label className="sr-only" htmlFor="firstday">
+          Ensimmäisten päivien tapahtumia
+        </label>
       </div>
       <div>
-        <textarea className="w-full" name="firstdays" id="firstdays" />
+        <textarea
+          className="w-full text-area"
+          name="firstdays"
+          id="firstdays"
+        />
       </div>
       <button
         className="submit-btn w-full shadow-md"

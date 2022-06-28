@@ -55,6 +55,12 @@
   border-radius: 25px;
 }
 
+.text-area {
+  background: transparent;
+  border-bottom: 1px solid;
+  margin-bottom: 1rem;
+}
+
 header {
   text-align: center;
 }
