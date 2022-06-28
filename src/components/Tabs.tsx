@@ -7,6 +7,7 @@ type Tab = {
   name: string;
   icon: string;
   isActive: boolean;
+  path: string;
 };
 
 export const Tabs = () => {
@@ -18,6 +19,7 @@ export const Tabs = () => {
         return {
           ...tab,
           isActive: !tab.isActive,
+          path: tab.path,
         };
       }
       return tab;
@@ -26,7 +28,7 @@ export const Tabs = () => {
   };
   return (
     <div className="flex tabs">
-      {data.map((tab) => (
+      {tabs.map((tab) => (
         <TabButton
           key={tab.id}
           tab={tab}
