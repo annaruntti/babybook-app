@@ -25,7 +25,7 @@ export const Tabs = () => {
     setTabs(updateTabs);
   };
   return (
-    <div className="flex">
+    <div className="flex tabs">
       {data.map(tab => (
         <TabButton
           key={tab.id}

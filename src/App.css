@@ -2,12 +2,54 @@
 
 .App {
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #4a4a4a;
+  background-color: #FDE0A1;
+}
+
+.tabs {
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: calc(12px + 1vmin);
+  font-weight: 600;
+}
+
+.box {
+  height:200px;
+  position:relative;
+}
+.box:before,
+.box:after{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:100%;
+  background: #FDE0A1;
+}
+.box:after {
+  -webkit-mask: radial-gradient(100% 80% at top ,white 79.5%,transparent 80%) left, radial-gradient(100% 80% at bottom,transparent 79.5%,white 80%) right;
+    mask: radial-gradient(100% 80% at top ,white 79.5%,transparent 80%) left, radial-gradient(100% 80% at bottom,transparent 79.5%,white 80%) right;
+    -webkit-mask-size: 50.1% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: 50.1% 100%;
+    mask-repeat: no-repeat;
+    background: linear-gradient(to bottom right, #BB8DFD, #453A77);
+}
+
+.submit-btn {
+  background-color: #5E3998;
+    color: #fff;
+    padding: 0.75rem;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px;
 }
 
 header {
@@ -16,6 +58,8 @@ header {
 
 main {
   max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 label {
