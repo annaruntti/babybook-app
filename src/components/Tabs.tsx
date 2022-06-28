@@ -15,14 +15,10 @@ export const Tabs = () => {
 
   const handleTabActive = (id: string) => {
     const updateTabs = tabs.map((tab) => {
-      if (tab.id === id) {
-        return {
-          ...tab,
-          isActive: !tab.isActive,
-          path: tab.path,
-        };
-      }
-      return tab;
+      return {
+        ...tab,
+        isActive: tab.id === id,
+      };
     });
     setTabs(updateTabs);
   };
