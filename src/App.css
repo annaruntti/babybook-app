@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 .App {
   min-height: 100vh;
@@ -7,7 +7,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #4a4a4a;
-  background-color: #FDE0A1;
+  background-color: #fde0a1;
 }
 
 .tabs {
@@ -19,37 +19,40 @@
 }
 
 .box {
-  height:200px;
-  position:relative;
+  height: 200px;
+  position: relative;
 }
 .box:before,
-.box:after{
-  content:"";
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  height:100%;
-  background: #FDE0A1;
+.box:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: #fde0a1;
 }
 .box:after {
-  -webkit-mask: radial-gradient(100% 80% at top ,white 79.5%,transparent 80%) left, radial-gradient(100% 80% at bottom,transparent 79.5%,white 80%) right;
-    mask: radial-gradient(100% 80% at top ,white 79.5%,transparent 80%) left, radial-gradient(100% 80% at bottom,transparent 79.5%,white 80%) right;
-    -webkit-mask-size: 50.1% 100%;
-    -webkit-mask-repeat: no-repeat;
-    mask-size: 50.1% 100%;
-    mask-repeat: no-repeat;
-    background: linear-gradient(to bottom right, #BB8DFD, #453A77);
+  -webkit-mask: radial-gradient(100% 80% at top, white 79.5%, transparent 80%)
+      left,
+    radial-gradient(100% 80% at bottom, transparent 79.5%, white 80%) right;
+  mask: radial-gradient(100% 80% at top, white 79.5%, transparent 80%) left,
+    radial-gradient(100% 80% at bottom, transparent 79.5%, white 80%) right;
+  -webkit-mask-size: 50.1% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: 50.1% 100%;
+  mask-repeat: no-repeat;
+  background: linear-gradient(to bottom right, #bb8dfd, #453a77);
 }
 
 .submit-btn {
-  background-color: #5E3998;
-    color: #fff;
-    padding: 0.75rem;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 25px;
+  background-color: #5e3998;
+  color: #fff;
+  padding: 0.75rem;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 25px;
 }
 
 header {

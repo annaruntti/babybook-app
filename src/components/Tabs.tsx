@@ -13,7 +13,7 @@ export const Tabs = () => {
   const [tabs, setTabs] = useState<Tab[]>(data);
 
   const handleTabActive = (id: string) => {
-    const updateTabs = tabs.map(tab => {
+    const updateTabs = tabs.map((tab) => {
       if (tab.id === id) {
         return {
           ...tab,
@@ -26,7 +26,7 @@ export const Tabs = () => {
   };
   return (
     <div className="flex tabs">
-      {data.map(tab => (
+      {data.map((tab) => (
         <TabButton
           key={tab.id}
           tab={tab}

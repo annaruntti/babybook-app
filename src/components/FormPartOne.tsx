@@ -3,7 +3,9 @@ import React from "react";
 function FormPartOne() {
   return (
     <form id="FormPartOne" onSubmit={() => null}>
-      <p className="mb-2">Maija syntyi 1.5.2021. Ensimmäiset päivämme alkoivat näin:</p>
+      <p className="mb-2">
+        Maija syntyi 1.5.2021. Ensimmäiset päivämme alkoivat näin:
+      </p>
       <div>
         <label htmlFor="firstday">Ensimmäisten päivien tapahtumia</label>
       </div>
