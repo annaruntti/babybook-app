@@ -5,6 +5,7 @@ import { useState } from "react";
 type Tab = {
   id: string;
   name: string;
+  icon: string;
   isActive: boolean;
 };
 
