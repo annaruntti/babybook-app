@@ -1,4 +1,4 @@
-export const data = [
+export const tabData = [
   {
     id: "0",
     name: "Tiedot",

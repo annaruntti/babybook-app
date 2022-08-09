@@ -7,7 +7,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #4a4a4a;
-  background-color: #fff9aa;
+  background-color: #fff9ca;
 }
 
 .tabs {
@@ -30,7 +30,7 @@
   left: 0;
   right: 0;
   height: 100%;
-  background: #fff9aa;
+  background: #fff9ca;
 }
 .box:after {
   -webkit-mask: radial-gradient(100% 80% at top, white 79.5%, transparent 80%)
@@ -42,12 +42,12 @@
   -webkit-mask-repeat: no-repeat;
   mask-size: 50.1% 100%;
   mask-repeat: no-repeat;
-  background: linear-gradient(to bottom right, #bb8dfd, #453a77);
+  background: linear-gradient(to bottom right, #bb8dfd, #b2a4ff);
 }
 
 .submit-btn {
-  background-color: #5e3998;
-  color: #fff;
+  background-color: #b2a4ff;
+  color: #4a4a4a;
   padding: 0.75rem;
   text-transform: uppercase;
   font-size: 18px;
@@ -83,6 +83,8 @@ label {
 .tabBtn {
   height: 42px;
   width: 42px;
+  background-color: #ffb4b4;
+  margin-bottom: 0.5rem;
 }
 
 .tabBtnActive {
@@ -90,6 +92,13 @@ label {
   width: 60px;
   top: -10px;
   position: relative;
+  background-color: #ffb4b4;
+  margin-bottom: 0.5rem;
+}
+
+.tabTextActive {
+  position: relative;
+  top: -9px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

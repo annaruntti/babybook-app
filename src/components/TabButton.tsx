@@ -21,7 +21,7 @@ export const TabButton = ({
     <div className="items-center">
       <Link to={path}>
         <button
-          className={`rounded-full bg-orange-400 shadow-md ${
+          className={`rounded-full shadow-md ${
             isActive ? "tabBtnActive" : "tabBtn"
           }`}
           aria-label={name}
@@ -45,7 +45,7 @@ export const TabButton = ({
         </button>
       </Link>
     </div>
-    <div>
+    <div className={` ${isActive ? "tabTextActive" : "tabText"}`}>
       <span>{name}</span>
     </div>
   </div>

@@ -1,5 +1,5 @@
 import { TabButton } from "./TabButton";
-import { data } from "../tabs";
+import { tabData } from "../tabData";
 import { useState } from "react";
 
 type Tab = {
@@ -11,7 +11,7 @@ type Tab = {
 };
 
 export const Tabs = () => {
-  const [tabs, setTabs] = useState<Tab[]>(data);
+  const [tabs, setTabs] = useState<Tab[]>(tabData);
 
   const handleTabActive = (id: string) => {
     const updateTabs = tabs.map((tab) => {
