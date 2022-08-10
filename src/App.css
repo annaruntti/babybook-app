@@ -42,7 +42,7 @@
   -webkit-mask-repeat: no-repeat;
   mask-size: 50.1% 100%;
   mask-repeat: no-repeat;
-  background: linear-gradient(to bottom right, #bb8dfd, #b2a4ff);
+  background: linear-gradient(to bottom right, #b2a4ff, #ffb4b4);
 }
 
 .submit-btn {
@@ -53,6 +53,28 @@
   font-size: 18px;
   font-weight: 600;
   border-radius: 25px;
+}
+
+.login-btn {
+  background-color: #b2a4ff;
+  color: #4a4a4a;
+  padding: 0.75rem;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+}
+
+.register-btn {
+  background-color: #ffb4b4;
+  color: #4a4a4a;
+  padding: 0.75rem;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 25px;
+  margin-bottom: 1rem;
 }
 
 .text-area {
