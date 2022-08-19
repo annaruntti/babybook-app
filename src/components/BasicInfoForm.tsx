@@ -31,6 +31,34 @@ function BasicInfoForm() {
           id="childimage"
         />
       </div>
+      <div>
+        <label className="mb-2" htmlFor="bheight">
+          Lapsen syntymäpituus
+        </label>
+      </div>
+      <div className="mb-4">
+        <input className="w-full text-input" name="bheight" id="bheight" />
+      </div>
+      <div>
+        <label className="mb-2" htmlFor="bweight">
+          Lapsen syntymäpaino
+        </label>
+      </div>
+      <div className="mb-4">
+        <input className="w-full text-input" name="bweight" id="bweight" />
+      </div>
+      <div>
+        <label className="mb-2" htmlFor="bcircumference">
+          Päänympärys syntyessä
+        </label>
+      </div>
+      <div className="mb-4">
+        <input
+          className="w-full text-input"
+          name="bcircumference"
+          id="bcircumference"
+        />
+      </div>
       <button
         className="submit-btn w-full shadow-md"
         type="submit"
